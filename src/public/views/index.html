@@ -1,0 +1,120 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Ecommerce Bodega</title>
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" />
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css" />
+  <link rel="stylesheet" href="./../css/styles.css">
+</head>
+
+<body>
+  <header>
+    <nav class="navbar navbar-expand-lg navbar-dark bg-vino">
+      <a class="navbar-brand" href="./index.html">Heaven Wine</a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+        aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarNav">
+        <ul class="navbar-nav">
+          <li class="nav-item active">
+            <a class="nav-link" href="./index.html">Home</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./products.html">Productos</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./contact.html">Contacto</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./about.html">Quiénes somos</a>
+          </li>
+        </ul>
+        <ul class="navbar-nav ml-auto">
+
+          <li class="nav-item">
+            <a class="nav-link" href="./login.html"><i class="fas fa-user"></i> Iniciar sesión</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="./register.html"><i class="fas fa-user-plus"></i> Registrarse</a>
+          </li>
+        </ul>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <section class="jumbotron text-center bg-gradient">
+      <div class="container">
+        <h1 class="jumbotron-heading">Bienvenido a Heaven Wine</h1>
+        <p class="lead">
+          Descubre nuestra selección de vinos y licores de calidad. En Mi Bodega, nos enorgullece ofrecerte productos
+          cuidadosamente seleccionados de las mejores bodegas. Disfruta de una experiencia única y déjate cautivar por
+          nuestros sabores exquisitos.
+        </p>
+        <a href="./products.html" class="btn btn-vino btn-primary">Explorar</a>
+      </div>
+    </section>
+
+    <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
+      <ol class="carousel-indicators">
+        <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active" style="margin-bottom: 100px;"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="1" class="active" style="margin-bottom:  px;"></li>
+        <li data-target="#carouselExampleIndicators" data-slide-to="2" class="active" style="margin-bottom: px;"></li>
+      </ol>
+      <div class="carousel-inner">
+        <div class="carousel-item active">
+          <img src="./../img/16.jpeg" class="d-block w-100 carousel-image" alt="Slide 1" />
+          <div class="carousel-caption bg-vino d-none d-md-block">
+            <h5>Bienvenidos a Nuestra Bodega</h5>
+            <p>
+              Descubre nuestra amplia selección de vinos y licores de alta
+              calidad.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./../img/11.jpeg" class="d-block w-100 carousel-image" alt="Slide 2" />
+          <div class="carousel-caption bg-vino d-none d-md-block">
+            <h5>Productos Exclusivos</h5>
+            <p>
+              Explora nuestros productos exclusivos cuidadosamente
+              seleccionados para satisfacer los paladares más exigentes.
+            </p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="./../img/15.jpeg" class="d-block w-100 carousel-image" alt="Slide 3" />
+          <div class="carousel-caption bg-vino d-none d-md-block">
+            <h5>Experiencia Inigualable</h5>
+            <p>
+              Sumérgete en una experiencia única al disfrutar de nuestras
+              degustaciones y eventos especiales.
+            </p>
+          </div>
+        </div>
+      </div>
+      <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Anterior</span>
+      </a>
+      <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Siguiente</span>
+      </a>
+    </div>
+  </main>
+
+  <footer class="bg-vino text-center text-white py-3">
+    <p>&copy; 2023 Heaven Wine. Todos los derechos reservados.</p>
+  </footer>
+
+  <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+  <!-- <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@1.16.0/dist/umd/popper.min.js"></script> -->
+  <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"></script>
+</body>
+
+</html>
