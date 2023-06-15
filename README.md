@@ -6,17 +6,16 @@ Welcome to Heaven Wine Ecommerce, an online platform that offers a wide selectio
 ## Features
 
 - Browse and search through an extensive collection of wines.
-- View detailed product information, including descriptions, tasting notes, and customer reviews.
+- View detailed product information, including descriptions.
 
 ## Installation
 
 1. Clone the repository: `git clone https://github.com/your-username/heaven-wine-ecommerce.git`
-2. Navigate to the project directory: `cd heaven-wine-ecommerce`
 
 ## Technologies Used
 
 - HTML, CSS, JavaScript
-- Bootstrap (or any other front-end framework of your choice)
+- Bootstrap
 
 ## License
 
