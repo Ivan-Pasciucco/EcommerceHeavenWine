@@ -1,5 +1,4 @@
-# ecommerceHeavenWine
-Heaven Wine Ecommerce
+
 # Heaven Wine Ecommerce
 
 Welcome to Heaven Wine Ecommerce, an online platform that offers a wide selection of premium wines
