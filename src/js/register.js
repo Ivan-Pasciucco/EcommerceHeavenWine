@@ -23,9 +23,9 @@ document.addEventListener("DOMContentLoaded", () => {
       text: "¡Bienvenido!",
       icon: "success",
       showConfirmButton: false,
-      timer: 2000, // El mensaje se mostrará durante 2 segundos
+      timer: 2000,
       willClose: () => {
-        window.location.href = "login.html"; // Redirigir al usuario a la página de inicio después de cerrar el mensaje
+        window.location.href = "login.html";
       },
     });
   });
